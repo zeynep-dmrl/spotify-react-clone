@@ -2,10 +2,10 @@
 
 React + Tailwind kullanarak Spotify'ın web versiyonun arayüzünün klonudur.
 
-![home]()
-![search]()
-![collection]()
-![fullscreen]()
+![home](https://github.com/zeynep-dmrl/spotify-react-clone/blob/master/img/home.png)
+![search](https://github.com/zeynep-dmrl/spotify-react-clone/blob/master/img/search.png)
+![collection](https://github.com/zeynep-dmrl/spotify-react-clone/blob/master/img/collection.png)
+![fullscreen](https://github.com/zeynep-dmrl/spotify-react-clone/blob/master/img/2022-08-24.png)
 
 #### Hooks
 **useMemo()**
