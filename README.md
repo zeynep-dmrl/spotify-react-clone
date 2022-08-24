@@ -27,12 +27,12 @@ Router, SPA uygulamalarda sayfalar arası gezinmek için kullanılan yapıdır. 
     - *useAudio*
  - **[react-indiana-drag-scroll](https://github.com/Norserium/react-indiana-drag-scroll)**
 
-### **Events Managements**
+## Events Managements
 - **stopPropagation()**
 
 React da bir olay yöneticisinde olay yayılımını durdurmak için gerekli sekilde tetiklenmelidir. stopPropagation() tetiklenen olay zincirini keser. Birbirini etkileyen olaylar tanımlandığında bu etkinin ortadan kaldırılmasında yardımcı olur. Olaylar arasındaki zincir bağı kopar ve birbirlerinin tetiklemesi önlenir.
 
-#### CSS
+## CSS
 
 - **Tailwind**
 
