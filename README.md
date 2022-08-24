@@ -18,11 +18,11 @@ Router, SPA uygulamalarda sayfalar arası gezinmek için kullanılan yapıdır. 
  Dom ögelerine veya react elementlerine erişmemize yardımcı olur. Oluşturulan ref ile js'deki selectorlar gibi dom elelmanlarına erişmeyi sağlar. Ref verilen öge üzreinde gerçeklerşen olayları useRef ile kontrol edilir.
 
 #### Dependencies
-**[react-range](https://github.com/tajo/react-range)**
-**[react-use](https://github.com/streamich/react-use)**
+ - **[react-range](https://github.com/tajo/react-range)**
+ - **[react-use](https://github.com/streamich/react-use)**
     - *useFullScreen*
     - *useAudio*
-**[react-indiana-drag-scroll] (https://github.com/Norserium/react-indiana-drag-scroll)**
+ - **[react-indiana-drag-scroll] (https://github.com/Norserium/react-indiana-drag-scroll)**
 
 #### Events Managements
 **stopPropagation()**
