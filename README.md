@@ -7,7 +7,7 @@ React + Tailwind kullanarak Spotify'ın web versiyonun arayüzünün klonudur.
 ![collection](https://github.com/zeynep-dmrl/spotify-react-clone/blob/master/img/collection.png)
 ![fullscreen](https://github.com/zeynep-dmrl/spotify-react-clone/blob/master/img/2022-08-24.png)
 
-### Hooks
+## Hooks
 - **useMemo()**
 
 Memoization; aynı girdiler için aynı işlevler çağrıldığında işlevin tekrardan çağrılmadan saklanılmış olan sonucun döndülmesine denir. Bu tekniğin React hook'u olarak kullanılmasını sağlayan işlev: ueMemo(). Verilen girdilerin durumlarına göre önceden üretilen sonuçları döndürür.
@@ -20,14 +20,14 @@ Router, SPA uygulamalarda sayfalar arası gezinmek için kullanılan yapıdır. 
 
  Dom ögelerine veya react elementlerine erişmemize yardımcı olur. Oluşturulan ref ile js'deki selectorlar gibi dom elelmanlarına erişmeyi sağlar. Ref verilen öge üzreinde gerçeklerşen olayları useRef ile kontrol edilir.
 
-###### Dependencies
+## Dependencies
  - **[react-range](https://github.com/tajo/react-range)**
  - **[react-use](https://github.com/streamich/react-use)**
     - *useFullScreen*
     - *useAudio*
  - **[react-indiana-drag-scroll](https://github.com/Norserium/react-indiana-drag-scroll)**
 
-#### Events Managements
+### **Events Managements**
 - **stopPropagation()**
 
 React da bir olay yöneticisinde olay yayılımını durdurmak için gerekli sekilde tetiklenmelidir. stopPropagation() tetiklenen olay zincirini keser. Birbirini etkileyen olaylar tanımlandığında bu etkinin ortadan kaldırılmasında yardımcı olur. Olaylar arasındaki zincir bağı kopar ve birbirlerinin tetiklemesi önlenir.
