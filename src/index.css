@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@layer base{
+  html,body, #root{
+    @apply h-full bg-backdrop text-white antialiased /* antialiased - Yazı tipini alt pikselin aksine piksel düzeyinde düzleştirir. Koyu arka planlarda açık renkli metinler için alt piksel oluşturmadan kenar yumuşatmaya geçiş, daha açık görünmesini sağlar.*/
+  }
+  #root{
+    @apply flex flex-col;
+  }
+  .main-container{
+    height: calc(100% - theme('spacing.24')); /*bottom bar arasında sayfaya göre aralık olusturur. 23
+    ,25*/
+    @apply flex;
+  }
 }
