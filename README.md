@@ -28,8 +28,8 @@ Router, SPA uygulamalarda sayfalar arası gezinmek için kullanılan yapıdır. 
 React da bir olay yöneticisinde olay yayılımını durdurmak için gerekli sekilde tetiklenmelidir. stopPropagation() tetiklenen olay zincirini keser. Birbirini etkileyen olaylar tanımlandığında bu etkinin ortadan kaldırılmasında yardımcı olur. Olaylar arasındaki zincir bağı kopar ve birbirlerinin tetiklemesi önlenir.
 
 ## Dependencies
-```
- Libraries
+
+ #### Libraries
  
   - **[react-range](https://github.com/tajo/react-range)**
   - **[react-use](https://github.com/streamich/react-use)**
@@ -37,17 +37,16 @@ React da bir olay yöneticisinde olay yayılımını durdurmak için gerekli sek
      - *useAudio*
   - **[react-indiana-drag-scroll](https://github.com/Norserium/react-indiana-drag-scroll)**
   
-```
   
- # CSS
+ #### CSS
 
- - **Tailwind**
+    - **Tailwind**
 
  Özelleştirilebilir yapıya sahip bir CSS framework.
 
- - **Headless UI**
+    - **Headless UI**
 
  Tailwind CSS ile güzel bir şekilde entegre olacak şekilde tasarlanmış, tamamen stilsiz, tamamen erişilebilir UI bileşenleri.
   
- #State Managements
-   - Redux Toolkits
+ #### State Managements
+    - Redux Toolkits
