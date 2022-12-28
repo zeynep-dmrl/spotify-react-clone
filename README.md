@@ -40,13 +40,13 @@ React da bir olay yöneticisinde olay yayılımını durdurmak için gerekli sek
   
  #### CSS
 
-    - **Tailwind**
+   - **Tailwind**
 
  Özelleştirilebilir yapıya sahip bir CSS framework.
 
-    - **Headless UI**
+   - **Headless UI**
 
  Tailwind CSS ile güzel bir şekilde entegre olacak şekilde tasarlanmış, tamamen stilsiz, tamamen erişilebilir UI bileşenleri.
   
  #### State Managements
-    - Redux Toolkits
+   - Redux Toolkits
