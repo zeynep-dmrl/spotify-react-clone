@@ -1,4 +1,4 @@
-# Spotify Clone
+# Spotify UI Clone
 
 React + TailwindCss kullanarak Spotify'ın web versiyonun arayüzünün klonudur.
 
