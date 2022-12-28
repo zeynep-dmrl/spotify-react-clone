@@ -21,24 +21,29 @@ Router, SPA uygulamalarda sayfalar arası gezinmek için kullanılan yapıdır. 
 
  Dom ögelerine veya react elementlerine erişmemize yardımcı olur. Oluşturulan ref ile js'deki selectorlar gibi dom elelmanlarına erişmeyi sağlar. Ref verilen öge üzreinde gerçeklerşen olayları useRef ile kontrol edilir.
 
-## Dependencies
- - **[react-range](https://github.com/tajo/react-range)**
- - **[react-use](https://github.com/streamich/react-use)**
-    - *useFullScreen*
-    - *useAudio*
- - **[react-indiana-drag-scroll](https://github.com/Norserium/react-indiana-drag-scroll)**
 
 ## Events Managements
 - **stopPropagation()**
 
 React da bir olay yöneticisinde olay yayılımını durdurmak için gerekli sekilde tetiklenmelidir. stopPropagation() tetiklenen olay zincirini keser. Birbirini etkileyen olaylar tanımlandığında bu etkinin ortadan kaldırılmasında yardımcı olur. Olaylar arasındaki zincir bağı kopar ve birbirlerinin tetiklemesi önlenir.
 
-## CSS
+## Dependencies
+ #Libraries
+  - **[react-range](https://github.com/tajo/react-range)**
+  - **[react-use](https://github.com/streamich/react-use)**
+     - *useFullScreen*
+     - *useAudio*
+  - **[react-indiana-drag-scroll](https://github.com/Norserium/react-indiana-drag-scroll)**
+  
+ # CSS
 
-- **Tailwind**
+ - **Tailwind**
 
-Özelleştirilebilir yapıya sahip bir CSS framework.
+ Özelleştirilebilir yapıya sahip bir CSS framework.
 
-- **Headless UI**
+ - **Headless UI**
 
-Tailwind CSS ile güzel bir şekilde entegre olacak şekilde tasarlanmış, tamamen stilsiz, tamamen erişilebilir UI bileşenleri.
+ Tailwind CSS ile güzel bir şekilde entegre olacak şekilde tasarlanmış, tamamen stilsiz, tamamen erişilebilir UI bileşenleri.
+  
+ #State Managements
+   - Redux Toolkits
